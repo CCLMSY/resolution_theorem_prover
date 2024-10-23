@@ -1,0 +1,6 @@
+Search(x,y) Custom(x) !Enters(y) VIP(y)
+DrugDealer(x)
+Enters(x)
+!Search(x,y) DrugDealer(x)
+!DrugDealer(x) !VIP(x)
+!Custom(x) !DrugDealer(x)

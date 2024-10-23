@@ -1,0 +1,6 @@
+HowlsAtNight(Hound)
+!Has(x,Cat) !Has(x,Mouse)
+!LightSleeper(x) !Has(x,y) !HowlsAtNight(y)
+Has(John,Cat) Has(John,Hound)
+LightSleeper(John)
+Has(John,Mouse)
